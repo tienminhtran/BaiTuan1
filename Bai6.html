@@ -8,11 +8,13 @@
     <title>Bài 6</title>
 
     <style>
-        td {
+        tr {
+            height: 5px;
             text-align: center;
         }
         
-        tr {
+        td {
+            width: 65px;
             text-align: center;
         }
         
@@ -23,12 +25,43 @@
         .mauvang {
             background-color: yellow;
         }
+        
+        .mauchutieude {
+            color: rgb(255, 0, 255);
+        }
+        
+        I {
+            color: rgba(39, 95, 199, 0.822);
+        }
+        
+        .mauhongphan {
+            background-color: rgb(255, 158, 226);
+        }
+        
+        .mauhongdem {
+            background-color: rgb(255, 0, 255);
+        }
+        
+        .mauxanh {
+            background-color: rgba(18, 154, 233, 0.993);
+        }
+        
+        table {
+            border: 3px solid rgb(255, 0, 179)
+        }
+        
+        td {
+            border: 1px solid rgb(255, 0, 179)
+        }
+        
+        tr {
+            border: 1px solid rgb(255, 0, 179)
+        }
     </style>
 </head>
 
 <body>
-
-    <h1>a</h1>
+    <caption>Bài 6.a</caption>
     <table border="1">
         <tr>
             <td>1</td>
@@ -64,7 +97,8 @@
         </tr>
     </table>
     <hr>
-    <table border="1">
+    <caption>Bài 6.b</caption>
+    <table border="1" class="maucam">
         <tr>
             <td>(1)</td>
             <td>(2)</td>
@@ -75,8 +109,7 @@
         </tr>
         <tr>
             <td></td>
-            <td colspan="4">Part
-            </td>
+            <td colspan="4">Part I </td>
             <!-- <td>3</td>
             <td>4</td>
             <td>5</td> -->
@@ -85,7 +118,7 @@
         <tr>
             <td></td>
             <td></td>
-            <td colspan="3">Chapter</td>
+            <td colspan="3">Chapter 1</td>
             <!-- <td>4</td>
             <td>5</td> -->
             <td></td>
@@ -94,7 +127,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td colspan="2">Section</td>
+            <td colspan="2">Section A</td>
             <!-- <td>5</td> -->
             <td></td>
         </tr>
@@ -102,14 +135,14 @@
             <td></td>
             <td></td>
             <td></td>
-            <td colspan="2">Section</td>
+            <td colspan="2">Section B</td>
             <!-- <td>5</td> -->
             <td></td>
         </tr>
         <tr>
             <td></td>
             <td></td>
-            <td colspan="3">Chapter</td>
+            <td colspan="3">Chapter 2</td>
             <!-- <td>4</td>
             <td>5</td> -->
             <td></td>
@@ -118,7 +151,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td colspan="2">Section</td>
+            <td colspan="2">Section A</td>
             <!-- <td>5</td> -->
             <td></td>
         </tr>
@@ -126,14 +159,14 @@
             <td></td>
             <td></td>
             <td></td>
-            <td colspan="2">Section</td>
+            <td colspan="2">Section B</td>
             <!-- <td>5</td> -->
             <td></td>
         </tr>
 
         <tr>
             <td></td>
-            <td colspan="4">Part</td>
+            <td colspan="4">Part II</td>
             <!-- <td>3</td>
             <td>4</td>
             <td>5</td> -->
@@ -142,7 +175,7 @@
         <tr>
             <td></td>
             <td></td>
-            <td colspan="3">Chapter</td>
+            <td colspan="3">Chapter 1</td>
             <!-- <td>4</td>
             <td>5</td> -->
             <td></td>
@@ -151,7 +184,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td colspan="2">Section</td>
+            <td colspan="2">Section A</td>
             <!-- <td>5</td> -->
             <td></td>
         </tr>
@@ -159,14 +192,14 @@
             <td></td>
             <td></td>
             <td></td>
-            <td colspan="2">Section</td>
+            <td colspan="2">Section B</td>
             <!-- <td>5</td> -->
             <td></td>
         </tr>
         <tr>
             <td></td>
             <td></td>
-            <td colspan="3">Chapter</td>
+            <td colspan="3">Chapter 2</td>
             <!-- <td>4</td>
             <td>5</td> -->
             <td></td>
@@ -175,7 +208,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td colspan="2">Section</td>
+            <td colspan="2">Section A</td>
             <!-- <td>5</td> -->
             <td></td>
         </tr>
@@ -183,10 +216,218 @@
             <td></td>
             <td></td>
             <td></td>
-            <td colspan="2">Section</td>
+            <td colspan="2">Section B</td>
             <!-- <td>5</td> -->
             <td></td>
         </tr>
+    </table>
+    <hr>
+    <caption>Bài 6 With cellpadding</caption>
+    <table border="2" cellpadding="15">
+        <tr>
+            <td>6.470</td>
+            <td>6.470</td>
+        </tr>
+        <tr>
+            <td>6.470</td>
+            <td>6.470</td>
+        </tr>
+    </table>
+    <br><br>
+    <caption>Bài 6 With spanning row</caption>
+    <table border="2" cellpadding="5">
+        <tr>
+            <td>6.470</td>
+            <td>6.740</td>
+        </tr>
+        <tr>
+            <td rowspan="2">6.470</td>
+            <td>6.470</td>
+        </tr>
+        <tr>
+            <!-- <td>6.470</td> -->
+            <td>6.470</td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+    <caption>Bài 6c</caption>
+
+
+
+    <table cellpadding="4" border="2" class="maucam">
+
+        <caption class="maucam">
+            <B class="mauchutieude">NUMBERS 1-5 in VARIOUS LANGGUAGES</B>
+        </caption>
+        <tr>
+            <td style="width: 5px" class="mauhongphan"></td>
+            <td class="mauhongdem">
+                <B>Engilsh</B>
+            </td>
+            <td class="mauhongdem">
+                <B>Espanol</B>
+            </td>
+            <td class="mauhongdem">
+                <B>Francais</B>
+            </td>
+            <td class="mauhongdem">
+                <B>Italiano</B>
+            </td>
+            <td class="mauhongdem">
+                <B>Deutsch</B>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="width: 5px;" class="mauxanh">1</td>
+
+            <td class="mauhongphan">
+                <B>
+                    <I>one</I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>uno</I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>un</I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>un</I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>cinq</I>
+                </B>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 5px " class="mauxanh">2</td>
+            <td class="mauhongphan">
+                <B>
+                    <I>two</I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>dos</I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>deux </I>
+                </B>
+            </td>
+
+            <td class="mauhongphan">
+                <B>
+                    <I>deux </I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>cinq</I>
+                </B>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="width: 5px" class="mauxanh">3</td>
+            <td class="mauhongphan">
+                <B>
+                    <I>three</I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>tres</I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>trois </I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>trois </I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>cinq</I>
+                </B>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="width: 5px" class="mauxanh"> 4</td>
+            <td class="mauhongphan">
+                <B>
+                    <I>four</I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>cuatro </I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>quatre</I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>trois </I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>cinq</I>
+                </B>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 5px" class="mauxanh">5</td>
+            <td class="mauhongphan">
+                <B>
+                    <I>five</I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>cinco</I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>cinq</I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>trois </I>
+                </B>
+            </td>
+            <td class="mauhongphan">
+                <B>
+                    <I>cinq</I>
+                </B>
+            </td>
+        </tr>
+
+
+
+
     </table>
 </body>
 
