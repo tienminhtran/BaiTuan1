@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 17b</title>
+    <style>
+        div {
+            padding-bottom: 15px;
+        }
+        
+        #select_bro {
+            width: 200px;
+        }
+        
+        #input_username {
+            width: 190px;
+            <!-- background-color: red;
+            -->
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <Label>Browser: </Label>
+        <select name="bro" id="select_bro">
+            <option value="o1"></option>
+            <option value="o2">https://sv.iuh.edu.vn/sinh-vien-dang-nhap.html</option>
+            <option value="o3">https://stackoverflow.com/</option>
+            <option value="o4">https://webcoban.vn/</option>
+        </select>
+    </div>
+    <div>
+        <Label>Username: </Label>
+        <input type="text" id="input_username">
+    </div>
+
+    <div>
+        <Label>Encryption: </Label>
+        <select name="Encryption" id="select_encryption">
+            <option value="o1">2048 (High Grade)</option>
+            <option value="o2">2045 (High Grade)</option>
+            <option value="o3">2046 (High Grade)</option>
+            <option value="o4">2065 (High Grade)</option>
+        </select>
+    </div>
+    <div>
+        <span>0</span>
+        <input type="range" min="0" max="100" id="input_thanhtruot">
+        <span>100</span>
+        <br>
+        <input type="text" id="input_thanhtruot">
+
+    </div>
+    <div>
+        <Label>Birthday: </Label>
+        <input type="date" name="input_name_date" id="input_id_date">
+
+    </div>
+    <div>
+        <Label>Select your favorite color: </Label>
+        <input type="color" name="input_name_color" id="input_id_color" value="#F25500">
+    </div>
+    <div>
+        <Label>(Birthday month and year): </Label>
+
+        <input type="month" name="thang-nam" id="thang-nam">
+    </div>
+    <div>
+        <Label>Select a week: </Label>
+        <input type="week" name="week_name">
+    </div>
+    <div>
+        <Label>Select a time: </Label>
+        <input type="time" name="time_name">
+    </div>
+    <div>
+        <Label>Birthday (date and time)  </Label>
+        <input type="text" name="date-time_name">
+    </div>
+    <div>
+        <Label>E-mail: </Label>
+        <input type="email" name="mail_name">
+    </div>
+    <div>
+        <Label>Search google: </Label>
+        <input type="text" name="search-gg_name">
+    </div>
+    <div>
+        <Label>Telephone: </Label>
+        <input type="text" name="Telephone_name">
+    </div>
+    <div>
+        <Label>Add your homepage: </Label>
+        <input type="text" name="addyourhome_name">
+    </div>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+    <div>
+        <p><b>Note: </b> The datalist tag is not supported in Safari or IE9 (and earlier)
+        </p>
+    </div>
+
+
+</body>
+
+</html>
