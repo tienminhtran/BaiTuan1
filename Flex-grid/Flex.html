@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        #flex-Head {
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(174, 141, 206);
+            height: 100px;
+        }
+        
+        #flex-Menu {
+            float: left;
+            width: 30%;
+            height: 200px;
+            background-color: rgb(156, 206, 141);
+        }
+        
+        #flex-Contest {
+            float: right;
+            width: 70%;
+            height: 200px;
+            background-color: rgb(206, 180, 141);
+        }
+        
+        #flex-Footer {
+            background-color: rgb(97, 231, 19);
+        }
+        
+        #contest1 {
+            border: 2px solid red;
+            width: 50px;
+            text-align: center;
+            background-color: cyan;
+            margin-bottom: 2px;
+        }
+        
+        #contest2 {
+            flex-direction: row;
+            border: 2px solid red;
+            width: 50px;
+            text-align: center;
+            background-color: rgb(255, 0, 179);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="flex-Head">Head</div>
+    <div id="flex-Menu">Menu </div>
+    <div id="flex-Contest">Contest
+        <div id="contest1">1</div>
+        <div id="contest2">2</div>
+
+    </div>
+    <div id="flex-Footer">Footer </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        #Head {
+            grid-area: Head;
+        }
+        
+        #Menu {
+            grid-area: Menu;
+        }
+        
+        #Contest {
+            grid-area: Contest;
+        }
+        
+        #Footer {
+            grid-area: Footer;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-areas: 'Head Head Head Head Head Head' 'Menu Menu Contest Contest Contest Contest' 'Footer Footer Footer Footer Footer Footer';
+        }
+        
+        #Head {
+            background-color: red;
+            height: 50px;
+        }
+        
+        #Menu {
+            background-color: rgb(200, 255, 0);
+            height: 150px;
+        }
+        
+        #Contest {
+            background-color: rgb(153, 0, 255);
+            height: 150px;
+        }
+        
+        #Footer {
+            background-color: rgb(0, 204, 255);
+            height: 40px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <div id="Head">Head</div>
+        <div id="Menu">Menu</div>
+        <div id="Contest">Contest</div>
+        <div id="Footer">Footer </div>
+    </div>
+
+
+
+</body>
+
+</html>
