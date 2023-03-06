@@ -6,71 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProductListing</title>
-    <style>
-        body {}
-        
-        .head {
-            display: flex;
-            width: 1348px;
-            justify-content: space-around;
-            align-items: center;
-        }
-        
-        .head_left {
-            display: flex;
-            justify-content: space-evenly;
-            width: 475px;
-            height: 68px;
-            align-items: center;
-        }
-        
-        .head_center {
-            display: flex;
-            justify-content: center;
-            width: 489px;
-            height: 68px;
-            align-items: center;
-        }
-        
-        .head_right {
-            display: flex;
-            justify-content: center;
-            width: 347px;
-            height: 68px;
-            align-items: center;
-        }
-        
-        #tiemkiem_pro {
-            height: 37px;
-            width: 198px;
-        }
-        
-        .Noidung {
-            font-size: 50px;
-        }
-        
-        .head_center {}
-        
-        .noidunghinh {
-            position: relative;
-            font-family: Arial;
-        }
-        
-        .Noidungtheconp {
-            margin-top: -50px;
-        }
-        
-        .noidungcon {
-            position: absolute;
-            top: 0;
-            left: 20px;
-            margin: 90px;
-        }
-        
-        .Noidungtheconp {
-            font-size: 20px;
-        }
-    </style>
+
+    <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
@@ -78,12 +15,12 @@
     <div class="head">
         <div class="head_left">
             <div id="flex_blog" class="head_tieude"> </div>
+
             <div id="flex_blog" class="head_tieude"> </div>
             <div id="flex_shop" class="head_tieude"> Shop</div>
-            <div id="flex_offers" class="head_tieude">Offers </div>
-            <div id="flex_ourstrory" class="head_tieude">Our story </div>
+            <div id="flex_offers" class="head_tieude header__navbar-item--separate">Offers </div>
+            <div id="flex_ourstrory" class="head_tieude ">Our story </div>
             <div id="flex_blog" class="head_tieude"> Blog</div>
-
             <div id="flex_blog" class="head_tieude"></div>
 
         </div>
@@ -98,7 +35,8 @@
 
         <div class="head_right">
             <div id="flex_search" class="">
-                <input type="text" name="timkiem_pro" id="tiemkiem_pro" class="head_tieude" placeholder="Search product...">
+                <i class="header__search-btn-icon fas fa-search"></i>
+                <input type="text" name="timkiem_pro" id="tiemkiem_pro" class="head_tieude-pro" placeholder="Search product...">
             </div>
             <div id="flex_cart" class="">
                 <img src="Button 1 (1).png" alt="">
@@ -108,7 +46,6 @@
             </div>
         </div>
     </div>
-
     <div class="noidunghinh">
         <img src="Image 1.png" alt="hinhtrangchu">
         <div class="noidungcon">
@@ -123,6 +60,36 @@
     </div>
     <br>
     <div>
+
+    </div>
+
+    <div class="center">
+        <div class="center-left">
+            <div id="center-left-pro">
+                All Products
+            </div>
+            <div id="center-left-face">
+                Face
+            </div>
+            <div id="center-left-body">
+                Body
+            </div>
+
+
+        </div>
+        <div class="center-right">
+            <div id="center-right-flex_search" class="">
+                <input type="text" name="timkiem_pro" id="tiemkiem_pro_center" placeholder="Search product...">
+            </div>
+
+            <div id="center-right-flex_sortby" class="">
+                <select name="sortby" id="id_sortby">
+                    <option value="o1">Sory by</option>
+                    <option value="o1">Face</option>
+                    <option value="o2">Body</option>
+                </select>
+            </div>
+        </div>
 
     </div>
 
