@@ -171,30 +171,47 @@ div {
 .sanpham {
     display: flex;
     flex-direction: column;
+    margin-left: 70px;
 }
 
 .sanpham1 {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 42px;
 }
 
 .sanpham2 {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 42px;
 }
 
 .sanpham3 {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 42px;
 }
 
 span {
     display: flex;
-    margin-left: 56px;
     font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .st-icon-apple {
+    display: flex;
+    align-items: center;
     font-size: 45px;
+}
+
+.sp-nd {
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+}
+
+.giagoc {
+    /* position: absolute; */
+    margin-left: 10px;
+    margin-top: 10px;
 }
