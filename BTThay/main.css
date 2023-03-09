@@ -104,9 +104,10 @@ div {
     border: 1px solid rgb(196, 196, 196);
 }
 
-.header__search-btn-icon {
+
+/* .header__search-btn-icon {
     border: none;
-}
+} */
 
 .head_tieude-pro {
     border: none;
@@ -214,4 +215,14 @@ span {
     /* position: absolute; */
     margin-left: 10px;
     margin-top: 10px;
+}
+
+.header__search-btn {
+    height: 40px;
+    width: 40px;
+}
+
+.header__search-btn-icon {
+    height: 40px;
+    width: 40px;
 }
