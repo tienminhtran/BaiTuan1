@@ -21,7 +21,6 @@ div {
     justify-content: space-evenly;
     width: 475px;
     height: 68px;
-    justify-items: ;
     align-items: center;
 }
 
@@ -44,6 +43,9 @@ div {
 #tiemkiem_pro {
     height: 37px;
     width: 198px;
+    display: flex;
+    justify-content: center;
+    border: none;
 }
 
 .icon-search {
@@ -102,6 +104,8 @@ div {
 
 #flex_search {
     border: 1px solid rgb(196, 196, 196);
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -146,7 +150,7 @@ div {
     border: 0px;
     width: 235px;
     height: 20px;
-    margin-left: 350px;
+    /* margin-left: 350px; */
     box-shadow: 0px 1px 0px 0px rgb(191, 163, 168);
 }
 
@@ -195,34 +199,102 @@ div {
 
 span {
     display: flex;
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .st-icon-apple {
     display: flex;
     align-items: center;
-    font-size: 45px;
+    margin-right: 5px;
+    font-size: 36px;
 }
 
 .sp-nd {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     /* position: relative; */
+}
+
+.dongia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .giagoc {
     /* position: absolute; */
-    margin-left: 10px;
-    margin-top: 10px;
+    display: flex;
+    /* margin-left: -100px; */
+    /* margin-top: 10px; */
+}
+
+.ghichu_sp {
+    position: relative;
+    width: 265px;
+    height: 332px;
+}
+
+.best-sell {
+    background-color: rgb(255, 201, 112);
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.new {
+    background-color: rgb(255, 201, 112);
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 20px;
 }
 
 .header__search-btn {
     height: 40px;
     width: 40px;
+    font-size: 15px;
+    background-color: #ffffff;
+    border: none;
 }
 
 .header__search-btn-icon {
-    height: 40px;
-    width: 40px;
+    /* height: 40px;
+    width: 40px; */
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.center__search-btn {
+    height: 44px;
+    width: 20px;
+    font-size: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 0px 0px rgb(191, 163, 168);
+    border: none;
+}
+
+.center__search-btn-icon {
+    /* height: 40px;
+    width: 40px; */
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(137, 118, 121);
+}
+
+#center-right-flex_search {
+    display: flex;
+    justify-content: right;
 }
