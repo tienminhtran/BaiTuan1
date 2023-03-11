@@ -157,7 +157,7 @@ div {
 #id_sortby {
     display: flex;
     padding: 12px;
-    margin-left: 12px;
+    margin-right: 40px;
     background-color: rgb(243, 244, 246);
 }
 
@@ -428,6 +428,7 @@ li:nth-child(3) {
     color: #ffffff;
     background-color: rgb(50, 54, 61);
     border-radius: 3px;
+    padding: 3px;
 }
 
 .chantrangtoanphan {
@@ -465,26 +466,60 @@ li:nth-child(3) {
 
 .vung-mail {
     display: flex;
-}
-
-.vung-subscribe {
-    display: flex;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
 }
 
 .themail-chantrang {
     height: 40px;
     width: 270px;
     color: #ffffff;
-    border-radius: 10px;
     background-color: rgb(50, 54, 61);
-    border: 1px solid #f1f1f1;
+    border: none;
+    outline: none;
 }
 
 .themail-subscribe-chantrang {
     height: 44px;
     width: 80px;
     color: #ffffff;
-    border-radius: 10px;
-    background-color: rgb(50, 54, 61);
+    background-color: rgb(70, 221, 78);
     border: 1px solid #f1f1f1;
+    border: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.iconmail {
+    border: none;
+    background-color: rgb(50, 54, 61);
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.iconmail-icon {
+    background-color: rgb(50, 54, 61);
+    color: #ffffff;
+}
+
+.chantrang-icon {
+    margin-top: 30px;
+}
+
+.src {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.copyright {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.listcopyright {
+    float: left;
+    width: 90px;
 }
