@@ -298,3 +298,193 @@ span {
     display: flex;
     justify-content: right;
 }
+
+.sotrang-cha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.sotrang-con {
+    display: flex;
+    align-items: center;
+}
+
+.danhsach {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.danhsach>li {
+    margin: 13px;
+}
+
+.hinhmuiten {
+    padding-top: 5px;
+}
+
+li:nth-child(3) {
+    background: rgb(165, 184, 178);
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chantrang {
+    background-color: rgb(50, 54, 61);
+    height: 400px;
+    color: azure;
+}
+
+.About {
+    grid-area: About;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.Help {
+    grid-area: Help;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.Contact {
+    grid-area: Contact;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.Home {
+    grid-area: Home;
+    color: #ffffff;
+}
+
+.Shipping-Returs {
+    grid-area: Shipping-Returs;
+    color: #ffffff;
+}
+
+.Phone {
+    grid-area: Phone;
+    color: #ffffff;
+}
+
+.Shop {
+    grid-area: Shop;
+    color: #ffffff;
+}
+
+.Track-order {
+    grid-area: Track-order;
+    color: #ffffff;
+}
+
+.SDT {
+    grid-area: SDT;
+    color: #ffffff;
+}
+
+.OurStrory {
+    grid-area: OurStrory;
+    color: #ffffff;
+}
+
+.FAQs {
+    grid-area: FAQs;
+    color: #ffffff;
+}
+
+.Email {
+    grid-area: Email;
+    color: #ffffff;
+}
+
+.Blogs {
+    grid-area: Blogs;
+    color: #ffffff;
+}
+
+.tengmail {
+    grid-area: tengmail;
+    color: #ffffff;
+}
+
+.list {
+    grid-area: list;
+    color: #ffffff;
+    height: 100px;
+    background-color: rgb(50, 54, 61);
+}
+
+.ds {
+    height: 30px;
+    width: 120px;
+    color: #ffffff;
+    background-color: rgb(50, 54, 61);
+    border-radius: 3px;
+}
+
+.chantrangtoanphan {
+    margin-left: 110px;
+    padding-top: 70px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.chantrangtrai {
+    width: 500px;
+    display: grid;
+    grid-template-areas: 'About About About Help Help Help Contact Contact Contact' 'Home Home Home Shipping-Returs  Shipping-Returs Shipping-Returs Phone  Phone Phone' 'Shop Shop Shop Track-order Track-order Track-order SDT SDT SDT ' 'OurStrory OurStrory OurStrory FAQs FAQs FAQs Email Email Email' 'Blogs Blogs Blogs Blogs Blogs Blogs tengmail tengmail tengmail' 'list list list list list list list list  list';
+    line-height: 35px;
+}
+
+.chantrangphai {
+    line-height: 35px;
+    width: auto;
+    margin-left: 240px;
+}
+
+.thetieudetext-chantrang-phai {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.thenoidungtext-chantrang-phai {
+    color: #ffffff;
+}
+
+.themailbaoquan-chantrang {
+    display: flex;
+}
+
+.vung-mail {
+    display: flex;
+}
+
+.vung-subscribe {
+    display: flex;
+}
+
+.themail-chantrang {
+    height: 40px;
+    width: 270px;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: rgb(50, 54, 61);
+    border: 1px solid #f1f1f1;
+}
+
+.themail-subscribe-chantrang {
+    height: 44px;
+    width: 80px;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: rgb(50, 54, 61);
+    border: 1px solid #f1f1f1;
+}
