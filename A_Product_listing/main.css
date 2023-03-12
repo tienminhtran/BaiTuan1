@@ -325,7 +325,7 @@ span {
     padding-top: 5px;
 }
 
-li:nth-child(3) {
+.danhsach li:nth-child(3) {
     background: rgb(165, 184, 178);
     border-radius: 20px;
     width: 30px;
