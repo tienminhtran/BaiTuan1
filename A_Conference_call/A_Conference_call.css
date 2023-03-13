@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.containet__left {
+    width: 950px;
+    height: 900px;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* background-color: rgb(253, 176, 62); */
+}
+
+.containet__left-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 75px;
+    height: 100%;
+    /* border: 1px solid rgb(104, 100, 100); */
+    border-right: 1px solid #cdc5c5;
+}
+
+.containet__left-menu-top>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80px;
+    height: 500px;
+}
+
+.containet__left-menu-top__logo {
+    width: 78;
+    height: 58;
+}
+
+.containet__left-menu-top__home {
+    width: 78;
+    height: 58;
+}
+
+.containet__left-menu-top__message {
+    width: 78;
+    height: 58;
+}
+
+.containet__left-menu-top__calendar {
+    width: 78;
+    height: 58;
+}
+
+.containet__left-menu-top__video {
+    width: 78;
+    height: 58;
+}
+
+.containet__left-menu-top__user {
+    width: 78;
+    height: 58;
+}
+
+.containet__left-menu-bottom>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+}
+
+.containet__left-menu-bottom__avatar {
+    width: 78;
+    height: 58;
+}
+
+.containet__left-menu-bottom__setting {
+    width: 78;
+    height: 58;
+}
+
+.containet__left-content {
+    margin-top: 55px;
+    margin-left: 20px;
+    width: 870px;
+}
+
+.containet__left-content__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 870px;
+}
+
+.containet__left-content__title-meet {
+    display: flex;
+}
+
+.containet__left-content__title-clock {
+    display: flex;
+    justify-content: center;
+}
+
+.containet__left-content__title-clock-dise__clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.containet__left-content__title-clock__clock {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* font-size: 15px; */
+    color: red;
+    border: 1px solid red;
+}
+
+.containet__left-content__toolbar {
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.containet__left-content__toolbar-internal {
+    background-color: rgb(230, 98, 132);
+    border-radius: 20px;
+    width: 110px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containet__left-content__toolbar-internal__user {
+    /* border: ; */
+    background-color: azure;
+    border-radius: 13px;
+    margin-left: 12px;
+    display: flex;
+}
+
+.containet__left-content__toolbar-internal__internal {
+    display: flex;
+    margin-left: 6px;
+    color: white;
+}
+
+.containet__left-content__toolbar-calendar {
+    display: flex;
+    margin-left: 5px;
+}
+
+.containet__left-content__toolbar-calendar__calendar {
+    margin-right: 5px;
+}
+
+.containet__left-content__toolbar-calendar__monthdayyear {
+    margin-right: 8px;
+    padding-right: 12px;
+    box-shadow: 1px 0px 0px 0px red;
+}
+
+.containet__left-content__toolbar-time {
+    margin-left: 8px;
+}
+
+.containet__left-content__toolbar-time_time {}
+
+.containet__left-content__meettings {
+    display: grid;
+    margin-top: 24px;
+    grid-template-areas: 'containet__left-content__meettings-img1 containet__left-content__meettings-img1 containet__left-content__meettings-img1 containet__left-content__meettings-img1 containet__left-content__meettings-img1 containet__left-content__meettings-img1' 'containet__left-content__meettings-img2 containet__left-content__meettings-img2 containet__left-content__meettings-img3 containet__left-content__meettings-img3 containet__left-content__meettings-img4 containet__left-content__meettings-img4';
+}
+
+.containet__left-content__meettings-img1 {
+    width: 820px;
+    grid-area: containet__left-content__meettings-img1;
+}
+
+.containet__left-content__meettings-img2 {
+    grid-area: containet__left-content__meettings-img2;
+}
+
+.containet__left-content__meettings-img3 {
+    grid-area: containet__left-content__meettings-img3;
+    margin-left: -555px;
+}
+
+.containet__left-content__meettings-img4 {
+    grid-area: containet__left-content__meettings-img4;
+    margin-left: -285px;
+}
+
+
+/* .containet__left-content__meettings-img1 {
+    width: 870px;
+    height: 460px;
+}
+
+.containet__left-content__meettings-img2 {
+    width: 130px;
+    height: 162px;
+}
+
+.containet__left-content__meettings-img3 {
+    width: 130px;
+    height: 162px;
+}
+
+.containet__left-content__meettings-img4 {
+    width: 130px;
+    height: 162px;
+} */
