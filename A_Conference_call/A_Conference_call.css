@@ -83,39 +83,43 @@
 .containet__left-content {
     margin-top: 55px;
     margin-left: 20px;
-    width: 870px;
+    width: 830px;
 }
 
 .containet__left-content__title {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 870px;
+    width: 830px;
 }
 
 .containet__left-content__title-meet {
     display: flex;
 }
 
-.containet__left-content__title-clock {
+
+/* .containet__left-content__title-clock {
     display: flex;
     justify-content: center;
-}
+} */
 
-.containet__left-content__title-clock-dise__clock {
+.containet__left-content__title__clock {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     /* border: 1px solid red; */
 }
 
-.containet__left-content__title-clock__clock {
+.containet__left-content__title__clock>ul {
     display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
     /* font-size: 15px; */
     color: red;
     border: 1px solid red;
+    border-radius: 15px;
+    width: 80px;
+    height: 35px;
 }
 
 .containet__left-content__toolbar {
@@ -128,11 +132,12 @@
 .containet__left-content__toolbar-internal {
     background-color: rgb(230, 98, 132);
     border-radius: 20px;
-    width: 110px;
+    width: 130px;
     height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 8px;
 }
 
 .containet__left-content__toolbar-internal__user {
@@ -179,6 +184,7 @@
 .containet__left-content__meettings-img1 {
     width: 820px;
     grid-area: containet__left-content__meettings-img1;
+    /* border-radius: 10px; */
 }
 
 .containet__left-content__meettings-img2 {
@@ -187,31 +193,86 @@
 
 .containet__left-content__meettings-img3 {
     grid-area: containet__left-content__meettings-img3;
-    margin-left: -555px;
+    margin-left: 25px;
 }
 
 .containet__left-content__meettings-img4 {
     grid-area: containet__left-content__meettings-img4;
-    margin-left: -285px;
+    margin-left: 25px;
 }
 
-
-/* .containet__left-content__meettings-img1 {
-    width: 870px;
-    height: 460px;
+.containet__left-content__meettings-img1>img {
+    border-radius: 8px;
 }
 
-.containet__left-content__meettings-img2 {
-    width: 130px;
-    height: 162px;
+.containet__left-content__meettings-img2>img {
+    grid-area: containet__left-content__meettings-img2;
+    border-radius: 7px;
 }
 
-.containet__left-content__meettings-img3 {
-    width: 130px;
-    height: 162px;
+.containet__left-content__meettings-img3>img {
+    grid-area: containet__left-content__meettings-img3;
+    /* margin-left: 25px; */
+    border-radius: 7px;
 }
 
-.containet__left-content__meettings-img4 {
-    width: 130px;
-    height: 162px;
-} */
+.containet__left-content__meettings-img4>img {
+    grid-area: containet__left-content__meettings-img4;
+    /* margin-left: 25px; */
+    border-radius: 7px;
+}
+
+.containet__left-content__button-meettings {
+    text-align: center;
+    width: 830px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+}
+
+.containet__left-content__button-meettings__button1 {
+    margin-right: 8px;
+    border: none;
+}
+
+.containet__left-content__button-meettings__button2 {
+    margin-right: 8px;
+    border: none;
+}
+
+.containet__left-content__button-meettings__button3 {
+    margin-right: 8px;
+    border: none;
+}
+
+.containet__left-content__button-meettings__button4 {
+    margin-right: 8px;
+    border: none;
+}
+
+.containet__left-content__button-meettings__button4-endmeeting {
+    width: 100px;
+    height: 43.99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.containet__left-content__button-meettings__button5 {
+    margin-right: 8px;
+    border: none;
+}
+
+.containet__left-content__button-meettings__button6 {
+    margin-right: 8px;
+    border: none;
+}
+
+.containet__left-content__button-meettings__button7 {
+    margin-right: 8px;
+    border: none;
+}
