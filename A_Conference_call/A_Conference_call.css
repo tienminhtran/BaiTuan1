@@ -435,6 +435,34 @@ justify-content: center;
     padding-left: 30px;
 }
 
+.containet__right-Partcipants-top-Participants-and_mumber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    width: 190px;
+}
+
+.containet__right-Partcipants-top-and_mumber {
+    /* margin-right: 20px; */
+    /* padding-left: 25px; */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 80px;
+    border: 1px solid rgb(255, 119, 119);
+    background-color: rgb(255, 224, 224);
+}
+
+.mumber4 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 20px;
+    height: 30px;
+}
+
 .containet__right-Partcipants-top__add {
     width: 70px;
     height: 37px;
