@@ -1,0 +1,76 @@
+.Trangchu {
+    width: 1440px;
+}
+
+.Trang_top {
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px;
+}
+
+.Trang_top_trai {
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.Trang_top_giua {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.Trang_top_giua>ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.Trang_top_giua>ul>li {
+    display: flex;
+    /* align-items: center; */
+    width: 90px;
+    justify-content: center;
+}
+
+.Trang_top_phai {
+    display: flex;
+    align-items: center;
+}
+
+.Trang_top_phai_iconssear_user {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.Trang_top_phai_iconssear_user_icon {
+    display: flex;
+    align-items: center;
+    background-color: rgb(200, 200, 219);
+    height: 30px;
+}
+
+.Trang_top_phai_iconssear_user_seach {
+    display: flex;
+    height: 30px;
+    background-color: rgb(200, 200, 219);
+}
+
+.Trang_top_phai_iconssear_user_seach>input {
+    background-color: rgb(200, 200, 219);
+    border: 0px;
+}
+
+.Trang-top_phai_user {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* .Trang_top_giua>ul>li:nth-child(1) {
+    padding-left: 50px;
+} */
