@@ -7,12 +7,14 @@
     display: flex;
     align-items: center;
     box-shadow: 0px 1px;
+    height: 60px;
 }
 
 .Trang_top_trai {
     width: 100px;
     display: flex;
     align-items: center;
+    /* margin-right: 15px; */
 }
 
 .Trang_top_giua {
@@ -31,8 +33,26 @@
 .Trang_top_giua>ul>li {
     display: flex;
     /* align-items: center; */
-    width: 90px;
+    padding: 0 0px;
     justify-content: center;
+}
+
+.Trang_top_phai_center_btn>li>a {
+    text-decoration: none;
+    padding: 20px;
+    color: #000;
+}
+
+.Trang_top_phai_center_btn>li>a:hover {
+    color: rgb(8, 255, 218);
+}
+
+
+/* tao lớp giả */
+
+.Trang_top_phai_center_btn>li:hover {
+    color: rgb(8, 255, 218);
+    border-bottom: 3px solid rgb(8, 255, 218);
 }
 
 .Trang_top_phai {
@@ -49,19 +69,20 @@
 .Trang_top_phai_iconssear_user_icon {
     display: flex;
     align-items: center;
-    background-color: rgb(200, 200, 219);
+    background-color: rgba(220, 220, 225, 0.904);
     height: 30px;
 }
 
 .Trang_top_phai_iconssear_user_seach {
     display: flex;
     height: 30px;
-    background-color: rgb(200, 200, 219);
+    background-color: rgba(220, 220, 225, 0.904);
 }
 
 .Trang_top_phai_iconssear_user_seach>input {
-    background-color: rgb(200, 200, 219);
+    background-color: rgba(220, 220, 225, 0.904);
     border: 0px;
+    width: 300px;
 }
 
 .Trang-top_phai_user {
@@ -70,7 +91,67 @@
     align-items: center;
 }
 
+.Trang_noidung {
+    width: 1256px;
+    margin: 0px auto;
+}
 
-/* .Trang_top_giua>ul>li:nth-child(1) {
-    padding-left: 50px;
-} */
+.Trang_noidung-listdanhsach>ul {
+    display: flex;
+    justify-content: left;
+    padding: 0px;
+}
+
+.Trang_noidung-listdanhsach>ul>li>a {
+    text-decoration: none;
+}
+
+.Trang_noidung-title {
+    margin-top: -30px;
+}
+
+.Trang_noidung-danhgia_share {
+    display: flex;
+    justify-content: space-between;
+    /* width: 1200px; */
+}
+
+.Trang_noidung-danhgia {
+    display: flex;
+    align-items: center;
+}
+
+.Trang_noidung-share {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+    margin-right: 68px;
+    /* justify-content: center; */
+}
+
+.Trang_noidung-share_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Trang_noidung-tym_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Trang_noidung-img {
+    display: flex;
+    width: 1256px;
+}
+
+.Trang_noidung-img_trai {
+    margin-right: 20px;
+}
+
+.Trang_noidung-img_phai {
+    display: flex;
+    flex-wrap: wrap;
+}
