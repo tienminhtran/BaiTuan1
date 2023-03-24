@@ -333,6 +333,7 @@
     flex-direction: row;
     width: 1184px;
     margin-top: 20px;
+    margin-bottom: 70px;
 }
 
 .Trang_noidung_content_relatedproducts_sp1 {
@@ -385,4 +386,90 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.trang_chan {
+    width: 1184px;
+}
+
+.trang_chan_logo {
+    margin-top: 40px;
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.trang_chan_phanhoi {
+    /* background-color: rgb(218, 218, 218); */
+    height: 30px;
+    width: 295px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    border-radius: 3px;
+    background-color: rgb(218, 218, 218);
+}
+
+.trang_chan_phanhoi_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+.trang_chan_phanhoi_input {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 200px;
+    background-color: rgb(218, 218, 218);
+}
+
+.trang_chan_phanhoi_sub {
+    display: flex;
+    height: 30px;
+    border: 0px;
+    background-color: rgb(98, 179, 255);
+    border-radius: 6px;
+}
+
+.trang_chan_listds {
+    display: flex;
+    line-height: 30px;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.trang_chan_listds>ul {
+    margin-right: 50px;
+}
+
+.chan {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 100px;
+}
+
+.chan_list {
+    margin-right: 250px;
+}
+
+.chan_nguon {
+    display: flex;
+    align-items: center;
+}
+
+.chan_nguon_date {}
+
+.chan_nguon_thongso {
+    display: flex;
+    margin-right: 350px;
+}
+
+.chan_nguon_icon {
+    width: 200px;
 }
