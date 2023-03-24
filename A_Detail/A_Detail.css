@@ -269,6 +269,27 @@
 }
 
 .Trang_noidung_content_reviews_user1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 592px;
+    margin-bottom: 30px;
+}
+
+.Trang_noidung_content_reviews_user2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 592px;
+}
+
+.Trang_noidung_content_reviews_user3 {
+    display: flex;
+    flex-direction: column;
+    width: 592px;
+}
+
+.Trang_noidung_content_reviews_user4 {
     display: flex;
     flex-direction: column;
     width: 592px;
@@ -293,4 +314,75 @@
 .Trang_noidung_content_reviews_user1_comment {
     display: flex;
     width: 540px;
+    margin-top: 10px;
+}
+
+.Trang_noidung_content_relatedproducts {
+    width: 1184px;
+}
+
+.Trang_noidung_content_relatedproducts_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Trang_noidung_content_relatedproducts_sp {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    width: 1184px;
+    margin-top: 20px;
+}
+
+.Trang_noidung_content_relatedproducts_sp1 {
+    width: 280px;
+    height: 340px;
+    border: 1px solid rgb(232, 250, 255);
+    border-radius: 2px;
+    margin-right: 25px;
+}
+
+.Trang_noidung_content_relatedproducts_sp2 {
+    width: 280px;
+    height: 340px;
+    border: 1px solid rgb(232, 250, 255);
+    border-radius: 2px;
+    margin-right: 25x;
+}
+
+.Trang_noidung_content_relatedproducts_sp3 {
+    width: 280px;
+    height: 340px;
+    border: 1px solid rgb(232, 250, 255);
+    border-radius: 2px;
+    margin-right: 25px;
+}
+
+.Trang_noidung_content_relatedproducts_sp4 {
+    width: 280px;
+    height: 340px;
+    border: 1px solid rgb(232, 250, 255);
+    border-radius: 2px;
+}
+
+.Trang_noidung_content_relatedproducts_sp1-img {}
+
+.Trang_noidung_content_relatedproducts_sp1_thongtin {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 30px;
+}
+
+.Trang_noidung_content_relatedproducts_sp1_title_tym {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Trang_noidung_content_relatedproducts_sp1_danhgia_soli {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
