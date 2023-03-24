@@ -183,6 +183,8 @@
 
 .Trang_noidung_content_productdescription_thongso>ul>li {
     width: 180px;
+    display: flex;
+    align-items: center;
 }
 
 .Trang_noidung_content_productdescription_gia {
@@ -190,13 +192,27 @@
     border-radius: 5px;
     width: 350px;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.Trang_noidung_content_productdescription_title {
+    /* height: 20px; */
+    color: rgb(0, 204, 255);
+    display: flex;
+    font-size: 30px;
+    justify-content: right;
+    text-align: right;
+    width: 300px;
 }
 
 .Trang_noidung_content_productdescription_gia_con {
     width: 300px;
     line-height: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .Trang_noidung_content_productdescription_total {
@@ -221,4 +237,60 @@
     justify-content: center;
     align-items: center;
     color: rgb(0, 204, 255);
+}
+
+.Trang_noidung_content_reviews {
+    width: 1183px;
+}
+
+.Trang_noidung_content_reviews_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Trang_noidung_content_reviews_title_trai {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Trang_noidung_content_reviews_title_phai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Trang_noidung_content_reviews_user {
+    display: flex;
+    flex-direction: row;
+    width: 1184px;
+    flex-wrap: wrap;
+}
+
+.Trang_noidung_content_reviews_user1 {
+    display: flex;
+    flex-direction: column;
+    width: 592px;
+}
+
+.Trang_noidung_content_reviews_user_vungtren {
+    display: flex;
+    align-items: center;
+}
+
+.Trang_noidung_content_reviews_user1_avatar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.Trang_noidung_content_reviews_user1_thongtin {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+}
+
+.Trang_noidung_content_reviews_user1_comment {
+    display: flex;
+    width: 540px;
 }
