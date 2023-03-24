@@ -155,3 +155,70 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.Trang_noidung_content {
+    width: 1186px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Trang_noidung_content {
+    display: flex;
+}
+
+.Trang_noidung_content_productdescription {
+    width: 780px;
+}
+
+.Trang_noidung_content_productdescription>span {
+    line-height: 22px;
+}
+
+.Trang_noidung_content_productdescription_thongso {}
+
+.Trang_noidung_content_productdescription_thongso>ul {
+    padding: 0px;
+    display: flex;
+}
+
+.Trang_noidung_content_productdescription_thongso>ul>li {
+    width: 180px;
+}
+
+.Trang_noidung_content_productdescription_gia {
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 5px;
+    width: 350px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.Trang_noidung_content_productdescription_gia_con {
+    width: 300px;
+    line-height: 45px;
+}
+
+.Trang_noidung_content_productdescription_total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Trang_noidung_content_productdescription_buynow {
+    border: 1px solid rgb(0, 204, 255);
+    border-radius: 5px;
+    background-color: rgb(0, 204, 255);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Trang_noidung_content_productdescription_addtocart {
+    border: 1px solid rgb(0, 204, 255);
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 204, 255);
+}
