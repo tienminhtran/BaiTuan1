@@ -1,0 +1,15 @@
+* {
+    margin: 0px auto;
+    height: auto;
+    width: auto;
+}
+
+.gui {
+    background-color: rgb(48, 230, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 120px;
+    width: 300px;
+}
