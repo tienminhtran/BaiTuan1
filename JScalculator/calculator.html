@@ -13,35 +13,35 @@
 
     <table>
         <tr>
-            <input type="text" class="jtextfiled">
+            <input type="text" id="jtextfiled" placeholder="Calculator">
         </tr>
         <tr>
-            <td><input type="button" value="7" class="nut"></td>
-            <td><input type="button" value="8" class="nut"></td>
-            <td><input type="button" value="9" class="nut"></td>
-            <td><input type="button" value="Del" class="nut"></td>
+            <td><input type="button" value="7" class="nut" onclick="jtextfiled.value+=this.value"></td>
+            <td><input type="button" value="8" class="nut" onclick="jtextfiled.value+=this.value"></td>
+            <td><input type="button" value="9" class="nut" onclick="jtextfiled.value+=this.value"></td>
+            <td><input type="button" value="Del" class="nut" onclick="jtextfiled.value =''"></td>
             <td><input type="button" value="AC" class="nut"></td>
         </tr>
         <tr>
-            <td><input type="button" value="4" class="nut"></td>
-            <td><input type="button" value="5" class="nut"></td>
-            <td><input type="button" value="6" class="nut"></td>
-            <td><input type="button" value="x" class="nut"></td>
-            <td><input type="button" value="/" class="nut"></td>
+            <td><input type="button" value="4" class="nut" onclick="jtextfiled.value+=this.value"></td>
+            <td><input type="button" value="5" class="nut" onclick="jtextfiled.value+=this.value"></td>
+            <td><input type="button" value="6" class="nut" onclick="jtextfiled.value+=this.value"></td>
+            <td><input type="button" value="x" class="nut" onclick="jtextfiled.value+=this.value"></td>
+            <td><input type="button" value="/" class="nut" onclick="jtextfiled.value+=this.value"></td>
         </tr>
         <tr>
-            <td><input type="button" value="1" class="nut"></td>
-            <td><input type="button" value="2" class="nut"></td>
-            <td><input type="button" value="3" class="nut"></td>
-            <td><input type="button" value="+" class="nut"></td>
-            <td><input type="button" value="-" class="nut"></td>
+            <td><input type="button" value="1" class="nut" onclick="jtextfiled.value+=this.value"></td>
+            <td><input type="button" value="2" class="nut" onclick="jtextfiled.value+=this.value"></td>
+            <td><input type="button" value="3" class="nut" onclick="jtextfiled.value+=this.value"></td>
+            <td><input type="button" value="+" class="nut" onclick="jtextfiled.value+=this.value"></td>
+            <td><input type="button" value="-" class="nut" onclick="jtextfiled.value+=this.value"></td>
         </tr>
         <tr>
-            <td><input type="button" value="0" class="nut"></td>
-            <td><input type="button" value="." class="nut"></td>
-            <td><input type="button" value="x10^x" class="nut"></td>
+            <td><input type="button" value="0" class="nut" onclick="jtextfiled.value+=this.value"></td>
+            <td><input type="button" value="." class="nut" onclick="jtextfiled.value+=this.value"></td>
+            <td><input type="button" value="x10^x" class="nut" onclick="jtextfiled.value+=this.value"></td>
             <td><input type="button" value="Ans" class="nut"></td>
-            <td><input type="button" value="=" class="nut"></td>
+            <td><input type="button" value="=" class="nut" onclick="jtextfiled.value = eval(jtextfiled.value)"></td>
         </tr>
     </table>
 </body>
